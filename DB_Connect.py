@@ -12,7 +12,7 @@ try:
     # for row in lab_records:
     #     print("Id = ", row[0], )
     #     print("address = ", row[1])
-    #     print("is_univerity  = ", row[2])
+
 
 except (Exception, psycopg2.Error) as error:
     print("Error while fetching data from PostgreSQL", error)
